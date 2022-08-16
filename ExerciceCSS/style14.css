@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(59, 59, 247);
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+img{
+    border: white solid 5px;
+    border-radius: 20px;
+
+}
