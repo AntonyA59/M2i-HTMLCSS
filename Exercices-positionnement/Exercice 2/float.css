@@ -1,0 +1,29 @@
+body{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.col-25{
+	height: 50px;
+	margin: 1%;
+	text-align: center;
+	width: 48%;
+}
+
+.red{
+	background-color: red;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.green{
+	background-color: green;
+}
