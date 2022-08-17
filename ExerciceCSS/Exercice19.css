@@ -1,0 +1,61 @@
+body{
+    background-color: #e0e2e8 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span{
+    padding: 10px 5px;
+}
+
+p{
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+    text-align: center;
+
+}
+
+a{
+    color: #36a23e;
+}
+.vert{
+    border: #36a23e solid 1px;
+    border-left: transparent;
+    border-right: transparent;
+    color: #36a23e;
+}
+.orange{
+    
+    border: #ff6633 solid 1px;
+    border-left: transparent;
+    border-right: transparent;
+    color: #ff6633;
+}
+.fushia{
+    border: #cc0066 solid 1px;
+    border-left: transparent;
+    border-right: transparent;
+    color: #cc0066;
+}
+
+.left{
+    border-left: #36a23e;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.right{
+    border-right: #ff6633;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.planete{
+    width: max-content;
+    margin: auto;
+}

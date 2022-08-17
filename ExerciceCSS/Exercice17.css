@@ -1,0 +1,22 @@
+.drapeau{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+
+
+.jaune{
+    background-color: #FCD116;
+    height: 30%;
+
+}
+.bleu{
+    background-color: #003893;
+    height: 10%
+
+}
+.rouge{
+    background-color: #CE1126;
+    height: 10%;
+
+}

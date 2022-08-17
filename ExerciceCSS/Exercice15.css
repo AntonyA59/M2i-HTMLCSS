@@ -1,0 +1,25 @@
+img {
+    display: block;
+
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td {
+    padding: 20px;
+
+}
+
+.black{
+    background-image: url(../image/black.png);
+}
+.white{
+    background-image: url(../image/white.png);
+}
+.red{
+    background-image: url(../image/red.png);
+}

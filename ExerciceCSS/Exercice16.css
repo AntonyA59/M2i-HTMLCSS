@@ -1,0 +1,17 @@
+body{
+    background-image: url(../image/bg.webp);
+}
+.container{
+text-align: center;
+
+}
+
+#p1{
+    width: 25%;
+}
+#p2{
+    width: 30%;
+}
+#p3{
+    width: 35%;
+}

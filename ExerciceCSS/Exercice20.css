@@ -1,0 +1,28 @@
+body{
+    background-image: url(/image/snow-black.gif);
+}
+
+#cercle1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    margin-top: 42px;
+    margin-left: 70%;
+    
+}
+#cercle2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    margin-left: 40%;
+}
+#cercle3 {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    margin-left: 50%;
+}

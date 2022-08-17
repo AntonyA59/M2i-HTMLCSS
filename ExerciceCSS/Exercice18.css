@@ -1,0 +1,35 @@
+body {
+    background-color: #5c94fc;
+}
+
+.container {
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    border: 1px black solid;
+}
+
+.bloc{
+height: 49px;
+border: 1px solid black;
+}
+
+#r1 {
+    width: 25%;
+    background-color: #4976c9;
+}
+
+#r2 {
+    width: 50%;
+    background-color: #375897;
+}
+
+#r3 {
+    width: 75%;
+    background-color: #243b64;
+}
+
+#r4 {
+    width: 100%;
+    background-color: #121d32;
+}
