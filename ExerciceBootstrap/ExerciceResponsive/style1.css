@@ -1,0 +1,23 @@
+.btn-acheter{
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    background-color: crimson;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+
+.myCard:hover{
+    background-color: crimson;
+    color: white;
+}
+.myCard:hover li {
+    background-color: crimson;
+    color: white !important; 
+}
+.myCard:hover .btn-acheter {
+    background-color: white;
+    color: black;
+}

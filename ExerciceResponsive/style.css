@@ -2,36 +2,23 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
-.active{
-    background-color: crimson;
-    color: white;
-}
+
 
 .active .currency{
     color: white;
 }
 
-.btn-acheter{
-    border-radius: 20px;
-    border: none;
-    padding: 10px;
+.card:hover{
     background-color: crimson;
-    text-transform: uppercase;
     color: white;
 }
-
-.btn-acheter:hover{
+.card:hover li {
+    background-color: crimson;
+    color: white; 
+}
+.card:hover .btn-acheter {
     background-color: white;
     color: black;
-    border: 1px solid black;
-}
-
-.btn-acheter-active{
-    background-color: white;    
-    text-transform: uppercase;
-    border-radius: 20px;
-    border: none;
-    padding: 10px;
 }
 
 .nav{
@@ -43,6 +30,14 @@ body{
     background-image: url(/image/bg.webp);
 }
 
+.btn-acheter{
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    background-color: crimson;
+    text-transform: uppercase;
+    color: white;
+}
 
 .element-flex{
     flex: 0 1 20%;
