@@ -11,27 +11,48 @@
 </head>
 
 <body>
-    <div class="container border border-dark rounded text-center">
+    <div class="container border border-dark rounded p-5">
         <form>
-            <h3>Quel type d'utilisateur êtes-vous?</h3>
-            <div class="row">
+            <div class="row mb-5 text-center">
+                <h3>Quel type d'utilisateur êtes-vous?</h3>
                 <div class="col-4">
-                    <input type="radio" class="btn-check" name="type" id="debutant-outlined">
+                    <input type="radio" class="btn-check" value="debutant" name="type" id="debutant-outlined">
                     <label class="btn btn-outline-primary mb-3" for="debutant-outlined">Débutant</label><br>
-                    
+
                 </div>
                 <div class="col-4">
-                    <input type="radio" class="btn-check" name="type" id="moyen-outlined">
+                    <input type="radio" class="btn-check" value="moyen" name="type" id="moyen-outlined">
                     <label class="btn btn-outline-primary mb-3" for="moyen-outlined">Moyen</label><br>
                 </div>
                 <div class="col-4">
-                    <input type="radio" class="btn-check" name="type" id="confirme-outlined">
+                    <input type="radio" class="btn-check" value="confirme" name="type" id="confirme-outlined">
                     <label class="btn btn-outline-primary mb-3" for="confirme-outlined">Confirmé</label><br>
                 </div>
             </div>
 
-            <div class="row"></div>
+            <div class="row">
+                <h3 class="mb-3 text-center">Saisir vos identifiants</h3>
+                <div class="mb-3">
+                    <label for="nom" class="form-label">Nom</label>
+                    <input type="text" name="nom" placeholder="Jean Dupont" class="form-control" id="nom" required="required">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Adresse e-mail</label>
+                    <input type="email" name="email" placeholder="jean-dupont@gmail.com" class="form-control" id="email" required="required">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Mot de passe</label>
+                    <input type="password" name="password" placeholder="000000000" class="form-control" id="password" required="required">
+                </div>
+                <div class="mb-3">
+                    <input type="checkbox" name="check" class="form-check-input" id="check required="required"">
+                    <label for="check" class="form-check-label form-check-inline">Je suis d'accord avec les <a href="#" class="text-decoration-none">conditions d'utilisations</a></label>
+                </div>
+                <button type="submit" class="btn btn-lg btn-primary mb-3">Créer un compte</button>
+            </div>
         </form>
+
+        <p class="text-center">Vous avez déja un compte ? <a href="#">Connectez-vous</a></p>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
