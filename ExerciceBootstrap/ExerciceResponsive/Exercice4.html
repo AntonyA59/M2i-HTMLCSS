@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <!-- Navbar avec un bouton qui apparaît en version mobile -->
     <header>
         <nav class="navbar navbar-dark navbar-expand-lg bg-dark p-sm-1 p-lg-0">
             <div class="container-fluid">
@@ -34,6 +35,7 @@
         </nav>
     </header>
     <main>
+        <!-- Menu avec logo a gauche -->
         <div class="container-fluid bg-light">
             <div class="d-flex justify-content-between align-items-center">
                 <img src="../../image/logo.png" alt="Logo">
@@ -44,16 +46,17 @@
                 </ul>
             </div>
         </div>
+        <!-- Carousel avec une image -->
         <div class="container-fluid p-0 m-0">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            <div id="carousel1" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators m-5">
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="3"
                         aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner">
@@ -98,28 +101,29 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </div>
-        <div class="container-fluid bg-dark text-white justify-content-center">
+
+        <!-- Form avec Select -->
+        <div class="container-fluid bg-dark text-white justify-content-center py-3">
             <div class="row">
-                <div class="offset-0 offset-lg-1 col-12 col-lg-5 pt-5 mt-3 text-center py-3">
+                <div class="offset-0 offset-md-1 col-12 col-md-5 pt-4 text-center py-3">
                     <h2 class="mb-3">Buy ,Sale & Rent</h2>
                     <form>
                         <div class="mb-3">
-                            <input name="search" type="search" placeholder="Search of properties" class="form-control" id="search">
+                            <input name="search" type="search" placeholder="Search of properties" class="form-control"
+                                id="search">
                         </div>
                         <div class="row">
-                            <div class="col-lg-3 col-12">
+                            <div class="col-md-3 col-12">
                                 <select class="form-select mb-3" name="buy">
                                     <option selected>Buy</option>
                                     <option value="1">One</option>
@@ -127,7 +131,7 @@
                                     <option value="3">Three</option>
                                 </select>
                             </div>
-                            <div class="col-lg-3 col-12">
+                            <div class="col-md-3 col-12">
                                 <select class="form-select mb-3" name="price">
                                     <option selected>Price</option>
                                     <option value="1">One</option>
@@ -135,7 +139,7 @@
                                     <option value="3">Three</option>
                                 </select>
                             </div>
-                            <div class="col-lg-3 col-12">
+                            <div class="col-md-3 col-12">
                                 <select class="form-select mb-3" name="propertie">
                                     <option selected>Propertie</option>
                                     <option value="1">One</option>
@@ -143,19 +147,408 @@
                                     <option value="3">Three</option>
                                 </select>
                             </div>
-                            <div class="col-sm-3 text-center">
+                            <div class="col-md-3 text-center">
                                 <button type="submit" class="btn btn-success">Find now</button>
-                            </div> 
+                            </div>
                         </div>
                     </form>
                 </div>
-                <div class="offset-0 offset-lg-1 col-12 col-lg-5 pt-5 mt-5 text-center">
+                <div class="offset-0 offset-md-1 col-12 col-md-5 mt-5 text-center">
                     <p>Join now and get updated with all the properties deals.</p>
                     <a href="#" class="btn btn-outline-light">Login</a>
                 </div>
             </div>
         </div>
+
+        <!-- Carousel avec 4 image + about us -->
+        <div class="container-fluid text-md-start text-center bg-light">
+            <h2 class="py-5 ps-5">Featured properties</h2>
+            <div id="carousel2" class="carousel slide mb-3" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-2 col-md-12">
+                                <div class="card">
+                                    <img src="../../image/1.jpg" class="d-block w-100" alt="Image1">
+                                    <div class="card-body">
+                                        <ul class="list-group list-group-flush text-center">
+                                            <li class="list-group-item">
+                                                <h3 class="green">Royal Inn</h3>
+                                            </li>
+
+                                            <li class="list-group-item">Price : 350 000 $</li>
+
+                                            <li class="list-group-item px-1">
+                                                <i class="bi bi-5-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-1-circle-fill"></i>
+                                            </li>
+                                            <li class="list-group-item"><a
+                                                    class="btn btn-lg btn-success text-center">View details</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 d-none d-md-none d-lg-block">
+                                <div class="card">
+                                    <img src="../../image/2.jpg" class="d-block w-100" alt="Image2">
+                                    <div class="card-body">
+                                        <ul class="list-group list-group-flush text-center ">
+                                            <li class="list-group-item">
+                                                <h3 class="green">Royal Inn</h3>
+                                            </li>
+                                            <li class="list-group-item">Price : 350 000 $</li>
+                                            <li class="list-group-item px-1">
+                                                <i class="bi bi-5-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-1-circle-fill"></i>
+                                            </li>
+                                            <li class="list-group-item"><a
+                                                    class="btn btn-lg btn-success text-center">View details</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 d-none d-md-none d-lg-block">
+                                <div class="card">
+                                    <img src="../../image/3.jpg" class="d-block w-100" alt="Image3">
+                                    <div class="card-body">
+                                        <ul class="list-group list-group-flush text-center ">
+                                            <li class="list-group-item">
+                                                <h3 class="green">Royal Inn</h3>
+                                            </li>
+                                            <li class="list-group-item">Price : 350 000 $</li>
+                                            <li class="list-group-item px-1">
+                                                <i class="bi bi-5-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-1-circle-fill"></i>
+                                            </li>
+                                            <li class="list-group-item"><a
+                                                    class="btn btn-lg btn-success text-center">View details</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 d-none d-md-none d-lg-block">
+                                <div class="card">
+                                    <img src="../../image/1.jpg" class="d-block w-100" alt="Image2">
+                                    <div class="card-body">
+                                        <ul class="list-group list-group-flush text-center ">
+                                            <li class="list-group-item">
+                                                <h3 class="green">Royal Inn</h3>
+                                            </li>
+                                            <li class="list-group-item">Price : 350 000 $</li>
+                                            <li class="list-group-item px-1">
+                                                <i class="bi bi-5-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-1-circle-fill"></i>
+                                            </li>
+                                            <li class="list-group-item"><a
+                                                    class="btn btn-lg btn-success text-center">View details</a></li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="row justify-content-center">
+                            <div class="col-md-2">
+                                <div class="card">
+                                    <img src="../../image/1.jpg" class="d-block w-100" alt="Image1">
+                                    <div class="card-body">
+                                        <ul class="list-group list-group-flush text-center ">
+                                            <li class="list-group-item">
+                                                <h3 class="green">Royal Inn</h3>
+                                            </li>
+                                            <li class="list-group-item">Price : 350 000 $</li>
+                                            <li class="list-group-item px-1">
+                                                <i class="bi bi-5-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-1-circle-fill"></i>
+                                            </li>
+                                            <li class="list-group-item"><a
+                                                    class="btn btn-lg btn-success text-center">View details</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 d-none d-md-none d-lg-block">
+                                <div class="card">
+                                    <img src="../../image/2.jpg" class="d-block w-100" alt="Image2">
+                                    <div class="card-body">
+                                        <ul class="list-group list-group-flush text-center ">
+                                            <li class="list-group-item">
+                                                <h3 class="green">Royal Inn</h3>
+                                            </li>
+                                            <li class="list-group-item">Price : 350 000 $</li>
+                                            <li class="list-group-item px-1">
+                                                <i class="bi bi-5-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-1-circle-fill"></i>
+                                            </li>
+                                            <li class="list-group-item"><a
+                                                    class="btn btn-lg btn-success text-center">View details</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 d-none d-md-none d-lg-block">
+                                <div class="card">
+                                    <img src="../../image/4.jpg" class="d-block w-100" alt="Image4">
+                                    <div class="card-body">
+                                        <ul class="list-group list-group-flush text-center ">
+                                            <li class="list-group-item">
+                                                <h3 class="green">Royal Inn</h3>
+                                            </li>
+                                            <li class="list-group-item">Price : 350 000 $</li>
+                                            <li class="list-group-item px-1">
+                                                <i class="bi bi-5-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-1-circle-fill"></i>
+                                            </li>
+                                            <li class="list-group-item"><a
+                                                    class="btn btn-lg btn-success text-center">View details</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 d-none d-md-none d-lg-block">
+                                <div class="card">
+                                    <img src="../../image/1.jpg" class="d-block w-100" alt="Image2">
+                                    <div class="card-body">
+                                        <ul class="list-group list-group-flush text-center ">
+                                            <li class="list-group-item">
+                                                <h3 class="green">Royal Inn</h3>
+                                            </li>
+                                            <li class="list-group-item">Price : 350 000 $</li>
+                                            <li class="list-group-item px-1">
+                                                <i class="bi bi-5-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-1-circle-fill"></i>
+                                            </li>
+                                            <li class="list-group-item"><a
+                                                    class="btn btn-lg btn-success text-center">View details</a></li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-2">
+                                <div class="card">
+                                    <img src="../../image/1.jpg" class="d-block w-100" alt="Image1">
+                                    <div class="card-body">
+                                        <ul class="list-group list-group-flush text-center ">
+                                            <li class="list-group-item">
+                                                <h3 class="green">Royal Inn</h3>
+                                            </li>
+
+                                            <li class="list-group-item">Price : 350 000 $</li>
+
+                                            <li class="list-group-item px-1">
+                                                <i class="bi bi-5-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-1-circle-fill"></i>
+                                            </li>
+                                            <li class="list-group-item"><a
+                                                    class="btn btn-lg btn-success text-center">View details</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 d-none d-md-none d-lg-block">
+                                <div class="card">
+                                    <img src="../../image/2.jpg" class="d-block w-100" alt="Image2">
+                                    <div class="card-body">
+                                        <ul class="list-group list-group-flush text-center ">
+                                            <li class="list-group-item">
+                                                <h3 class="green">Royal Inn</h3>
+                                            </li>
+                                            <li class="list-group-item">Price : 350 000 $</li>
+                                            <li class="list-group-item px-1">
+                                                <i class="bi bi-5-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-1-circle-fill"></i>
+                                            </li>
+                                            <li class="list-group-item"><a
+                                                    class="btn btn-lg btn-success text-center">View details</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 d-none d-md-none d-lg-block">
+                                <div class="card">
+                                    <img src="../../image/3.jpg" class="d-block w-100" alt="Image3">
+                                    <div class="card-body">
+                                        <ul class="list-group list-group-flush text-center ">
+                                            <li class="list-group-item">
+                                                <h3 class="green">Royal Inn</h3>
+                                            </li>
+                                            <li class="list-group-item">Price : 350 000 $</li>
+                                            <li class="list-group-item px-1">
+                                                <i class="bi bi-5-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-1-circle-fill"></i>
+                                            </li>
+                                            <li class="list-group-item"><a
+                                                    class="btn btn-lg btn-success text-center">View details</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 d-none d-md-none d-lg-block">
+                                <div class="card">
+                                    <img src="../../image/4.jpg" class="d-block w-100" alt="Image4">
+                                    <div class="card-body">
+                                        <ul class="list-group list-group-flush text-center ">
+                                            <li class="list-group-item">
+                                                <h3 class="green">Royal Inn</h3>
+                                            </li>
+                                            <li class="list-group-item">Price : 350 000 $</li>
+                                            <li class="list-group-item px-1">
+                                                <i class="bi bi-5-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-2-circle-fill"></i>
+                                                <i class="bi bi-1-circle-fill"></i>
+                                            </li>
+                                            <li class="list-group-item"><a
+                                                    class="btn btn-lg btn-success text-center">View details</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="row">
+                <div class="col-md-6 p-5">
+                    <h2>About us</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit pariatur deserunt iure sunt
+                        sapiente quo laboriosam velit adipisci voluptatum recusandae neque cum delectus voluptates, quam
+                        corrupti! Iste nulla saepe perspiciatis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sint quam suscipit provident,
+                        iure deleniti, voluptatum aliquid accusantium eum exercitationem nemo magni laboriosam alias
+                        quasi odio praesentium voluptates beatae ex?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae iste inventore eligendi,
+                        eius maiores, maxime beatae suscipit eaque delectus tempora deserunt? Architecto dolor
+                        voluptates tenetur quae amet? Ea, officiis officia?</p>
+                </div>
+                <div class="col-md-6 p-5">
+                    <h2>Recommended propertie</h2>
+                    <div id="carousel3" class="carousel slide text-wrap" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-md-6">
+                                        <img src="../../image/1.jpg" class="d-block w-100" alt="Image2">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">Villa</a>
+                                        <p>$300,000</p>
+                                        <p><a href="#" class="text-white bg-dark">More detail</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-md-6">
+                                        <img src="../../image/2.jpg" class="d-block w-100" alt="Image2">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">Villa</a>
+                                        <p>$300,000</p>
+                                        <p><a href="#" class="text-white bg-dark">More detail</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-md-6">
+                                        <img src="../../image/3.jpg" class="d-block w-100" alt="Image2">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#">Villa</a>
+                                        <p>$300,000</p>
+                                        <p><a href="#" class="text-white bg-dark">More detail</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+
+
+    <footer class="container-fluid bg-dark text-white text-center px-5 py-3">
+        <div class="row">
+            <div class="col-12 col-md-3 my-3 ">
+                <h3 class="mb-3">Information</h3>
+                <hr>
+                <a class="d-block green text-decoration-none" href="#">About</a>
+                <a class="d-block green text-decoration-none" href="#">Agents</a>
+                <a class="d-block green text-decoration-none" href="#">Blog</a>
+                <a class="d-block green text-decoration-none" href="#">Contact</a>
+            </div>
+            <div class="col-12 col-md-3 my-3">
+                <h3>Newsletter</h3>
+                <hr>
+                <p class="text-secondary">Get notified about the latest properties in our marketplace</p>
+                <form>
+                    <input type="text" class="form-control mb-3" placeholder="Enter your email address">
+                    <button type="submit" class="btn btn-success w-100"> Notify me !</button>
+                </form>
+            </div>
+            <div class="col-12 col-md-3 my-3 ">
+                <h3>Follow us</h3>
+                <hr>
+                <a href="#" class="bi bi-facebook mx-2 fs-3 text-white"></a>
+                <a href="#" class="bi bi-twitter mx-2 fs-3 text-white"></a>
+                <a href="#" class="bi bi-linkedin mx-2 fs-3 text-white" ></a>
+                <a href="#" class="bi bi-instagram mx-2 fs-3 text-white"></a>
+            </div>
+            <div class="col-12 col-md-3 my-3">
+                <h3>Contact us</h3>
+                <hr>
+                <p>Bootstrap Realestate</p>
+                <p><i class="bi bi-geo-alt-fill"></i> 404 Street Not Found, Matrix</p>
+                <p><i class="bi bi-envelope-fill"></i> mailing@example.com</p>
+                <p><i class="bi bi-telephone-fill"></i> 03 04 05 06 07</p>
+            </div>
+        </div>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

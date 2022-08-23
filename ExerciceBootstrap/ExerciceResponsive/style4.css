@@ -1,6 +1,10 @@
 .hoverGreen a:hover{
     background-color: rgb(120, 196, 6);   
 }
+
+.green{
+    color: rgb(120, 196, 6);
+}
 .positionAbs{
     position: absolute;
     top: 30%;
@@ -15,7 +19,7 @@
     font-size: 55px;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 980px) {
     .positionAbs{
         top: 10%;
     }
